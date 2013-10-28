@@ -1,9 +1,8 @@
-  var wordLists = { 
-    "coding" : ["computer", "array", "epicodus", "string", "boolean", "function", "object", "method", "callback", "property", "prototype", "javascript", "jquery", "language", "programming", "primatives", "syntax"],
-    "beer": ["pilsner", "hops", "malt", "stout", "lager", "imperial", "amber", "bitter", "brewpub", "draft", "yeast", "alcohol", "barley", "body", "fermentation", "cider", "keg", "tap", "microbrewery"],
-    "portland": ["beer", "hawthorne", "burnside", "tattoo", "powells", "willamette", "coffee", "max", "waterfront", "bicycle", "bridges", "weird", "startups"]
-  }
-
+var wordLists = { 
+  "coding" : ["computer", "array", "epicodus", "string", "boolean", "function", "object", "method", "callback", "property", "prototype", "javascript", "jquery", "language", "programming", "primatives", "syntax"],
+  "beer": ["pilsner", "hops", "malt", "stout", "lager", "imperial", "amber", "bitter", "brewpub", "draft", "yeast", "alcohol", "barley", "body", "fermentation", "cider", "keg", "tap", "microbrewery"],
+  "portland": ["beer", "hawthorne", "burnside", "tattoo", "powells", "willamette", "coffee", "max", "waterfront", "bicycle", "bridges", "weird", "startups"]
+};
 
 var Hangman = {
   bodyParts: 0,
@@ -205,17 +204,3 @@ $(function() {
     $("#hangman-sprite").delay(400).removeClass().addClass("hangman-sprite0");
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
