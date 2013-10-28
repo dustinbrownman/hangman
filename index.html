@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Hangman</title>
+		<script src="js/jquery-1.10.2.js"></script>
+		<script src="js/custom.modernizr.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-1">
+          <h1>Hangman <span class="muted sub-title">created by <a href="../index.html" target="_blank">Dustin Brown</a> and <a href="http://stevenferguson.site44.com" target="_blank">Steven Ferguson</a></span></h1>
+        </div>
+      </div>
+    </div>  
+
+    <hr>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-5 col-md-5 col-md-offset-1">
+          <div class="row">
+            <div id="hangman-sprite" class="hangman-sprite0"></div>
+          </div>
+        </div>
+
+        <div class="col-sm-5 col-md-5 play-area initially-hidden">
+          <div class="row">
+            <div id="unguessed-letters"></div>
+          </div>
+          <div class="row">
+            <div id="word-container" class="initially-hidden">
+              <p class="letter"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div id="incorrect-guesses">
+              <h3 class="light-weight">Incorrect Guesses: </h3>
+            </div>
+          </div>
+          <div class="row">
+            <button class="btn btn-lg btn-success" id="play-again">Play again?</button>
+          </div>
+        </div>
+
+        <div class="col-md-6 game-setup">
+
+          <div class="btn-group" id="choose-category">
+            <button type="button" class="btn btn-info btn-lg dropdown-toggle" data-toggle="dropdown">
+              Select a category <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li id="coding">Coding</li>
+              <li id="beer">Beer</li>
+              <li id="portland">Portland</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+	</body>
+</html>

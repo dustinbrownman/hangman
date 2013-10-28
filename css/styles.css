@@ -1,0 +1,109 @@
+.hangman-sprite0{ background-position: 0 0; width: 300px; height: 400px; } 
+.hangman-sprite1{ background-position: 0 -450px; width: 300px; height: 400px; } 
+.hangman-sprite2{ background-position: 0 -900px; width: 300px; height: 400px; } 
+.hangman-sprite3{ background-position: 0 -1350px; width: 300px; height: 400px; } 
+.hangman-sprite4{ background-position: 0 -1800px; width: 300px; height: 400px; } 
+.hangman-sprite5{ background-position: -350px 0; width: 300px; height: 400px; } 
+.hangman-sprite6{ background-position: -350px -450px; width: 300px; height: 400px; } 
+.hangman-sprite7{ background-position: -350px -900px; width: 300px; height: 400px; } 
+
+#hangman-sprite {
+  background-image: url(../img/hangman.png);
+  width: 300px;
+  height: 400px;
+  opacity: .7;
+  border-radius: 20px
+}
+
+.header {
+  margin: 20px auto 40px auto;
+}
+
+.sub-title {
+  font-size: .6em;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+body {
+  background-image: url(../img/witewall_3.png);
+}
+
+.letter {
+  border-bottom: 2px solid black;
+  font-size: 2em;
+  height: 50px;
+  width: 30px;
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+}
+
+.red {
+  color: #c0392b;
+}
+
+.green {
+  color: #2ecc71;
+}
+
+.initially-hidden {
+  display: none;
+}
+
+button#play-again {
+  display: none;
+  margin-top: 20px;
+}
+
+#unguessed-letters {
+  height: 150px;
+}
+
+#unguessed-letters p{
+  text-align: center;
+}
+
+.letter-choice {
+  margin: 10px;
+  font-size: 2em;
+  float: left;
+  cursor: pointer;
+}
+
+.letter-choice:hover {
+  color: #3498db;
+}
+
+.muted {
+  color: #aaa;
+}
+
+#incorrect-guesses h4 {
+  float: left;
+}
+
+.light-weight {
+  font-weight: 100;
+}
+
+.dropdown-menu > li {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: nowrap;
+}
+
+.dropdown-menu > li:hover,
+.dropdown-menu > li:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #428bca;
+}
+
+ul hr {
+  margin: 5px auto;
+}
